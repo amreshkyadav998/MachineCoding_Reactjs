@@ -10,7 +10,7 @@ function App() {
   return (
     <>
      <div className='p-6 border-2 text-3xl border-red-400 flex items-center justify-center bg-amber-50'>Hello Everyone this is the Todo application in reactjs</div>
-     {/* <Weather /> */}
+     <Weather />
      <Todo/>
     </>
   )

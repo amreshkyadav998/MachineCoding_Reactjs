@@ -6,7 +6,8 @@ export default function Weather() {
   const [loading, setLoading] = useState(false); // Loading state
   const [error, setError] = useState(null); // Error state
 
-  const API_KEY = "f7c80648602d9c525da8bf5f1a1205fd"; // Get from https://openweathermap.org/api
+  const API_KEY = import.meta.env.VITE_API_KEY;
+ // Get from https://openweathermap.org/api
 
   const fetchWeather = async () => {
     if (!city) return;
