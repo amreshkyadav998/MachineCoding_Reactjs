@@ -5,6 +5,7 @@ import Weather from './components/Weather'
 import Todo from './components/Todo'
 import StarRating from './components/StarRating'
 import SnakeAndLadder from './components/SnakeAndLadder'
+import ResponsiveLayout from './components/ResponsiveLayout'
 
 function App() {
   return (
@@ -26,8 +27,12 @@ function App() {
       <StarRating totalStars={5} /> */}
 
 {/* Snake and Ladder */}
-       <h1 style={{ textAlign: "center" }}>🐍 Snake & Ladder 🎲</h1>
-      <SnakeAndLadder />
+       {/* <h1 style={{ textAlign: "center" }}>🐍 Snake & Ladder 🎲</h1>
+      <SnakeAndLadder /> */}
+
+
+      {/* Responsive layout */}
+       <ResponsiveLayout />
     </div>
     </>
   )
